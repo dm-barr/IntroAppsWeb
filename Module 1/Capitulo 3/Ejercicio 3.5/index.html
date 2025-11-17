@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejemplo de elementos HTML5</title>
+</head>
+
+<body>
+    <h1>Ejemplo de elementos HTML5</h1>
+
+    <p>
+        Calificación de los alimentos: 1
+        <meter min="1" max="10" value="7">7 de 10</meter>
+        10
+    </p>
+
+    <details>
+        <summary>Resultados de la encuesta</summary>
+        <p>
+            Se realizó una encuesta entre los estudiantes para evaluar la calidad de los alimentos en la cafetería.
+            La calificación promedio obtenida fue de 7 sobre 10.
+        </p>
+    </details>
+
+    <p>
+        Primer nombre:
+        <input type="text" name="nombre" value="Pedro" autofocus>
+    </p>
+
+    <p>
+        <input type="text" name="otroNombre" placeholder="Luis">
+    </p>
+
+    <p>
+        Seleccione un estado:
+        <input list="estados" name="estado" value="Nuevo León">
+        <datalist id="estados">
+            <option value="California">
+            <option value="Texas">
+            <option value="Florida">
+            <option value="Nuevo León">
+            <option value="Illinois">
+        </datalist>
+    </p>
+
+    <p>
+        Seleccione un número (1–100):
+        <input type="range" min="1" max="100" value="50">
+    </p>
+
+    <form autocomplete="off">
+
+        <p>
+            Se pidió a los estudiantes que calificaran los alimentos en la cafetería.
+            <mark>En una escala del 1 al 10. El resultado promedio fue 7.</mark>
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+Complete las siguientes oraciones:
+a) La compañía que popularizó la computación personal fue __________.
+b) Las computadoras procesan datos bajo el control de conjuntos de instrucciones conocidas como __________ de computadora.
+c) El __________  es un tipo de lenguaje de computadora que utiliza abreviaciones similares al idioma inglés para las instrucciones de lenguaje máquina.
+d) Los lenguajes de ___________________ son más convenientes para que el programador escriba programas con rapidez y facilidad.
+e) El único lenguaje que una computadora puede entender en forma directa es el __________ de esa computadora.
+f) Los  programas  que  traducen  programas  de  un  lenguaje  de  alto  nivel  a  un  lenguaje  máquina  se  denominan  __________.
+g) El __________ o marcado de contenido, son otra parte clave del tema colaborativo de la Web 2.0.
+h) Con  el  desarrollo  del  __________,  los  individuos  y  empresas  contribuyen  con  sus  esfuerzos  para  desarrollar,  mantener y evolucionar software a cambio del derecho de usar ese software para sus propios fines, por lo general sin costo.
+i) El __________ fue el predecesor de Internet.
+j) La  capacidad  de  transmitir  de  información  de  un  medio  de  comunicación  como  Internet  se  conoce  como  ____________ .
+k) El acrónimo de TCP/IP significa __________ .
+
+
+---
+
+Respuestas:
+a) APPLE 
+b) PROGRAMAS 
+c) LENGUAJE ENSAMBLADOR
+d) ALTO NIVEL
+e) LENGUAJE MÁQUINA
+f) COMPILADORES
+g) ETIQUETADO
+h) CÓDIGO FUENTE ABIERTO
+i) ARPANET
+j) ANCHO DE BANDA
+k) PROTOCOLO DE CONTROL DE TRANSMISIÓN/PROTOCOLO DE INTERNET

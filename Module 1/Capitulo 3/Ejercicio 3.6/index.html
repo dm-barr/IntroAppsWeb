@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Registro — Encuesta opcional</title>
+</head>
+
+<body>
+    <main>
+        <h1>Formulario de registro</h1>
+
+        <form action="#" method="post" autocomplete="on" aria-labelledby="form-legend">
+            <fieldset>
+                <legend id="form-legend">Datos personales</legend>
+
+                <p>
+                    <label for="firstName">Primer nombre<span aria-hidden="true"> *</span></label><br />
+                    <input type="text" id="firstName" name="first_name" placeholder="Ej. María" required autofocus
+                        autocomplete="given-name" aria-required="true" />
+                </p>
+
+                <p>
+                    <label for="lastName">Apellido<span aria-hidden="true"> *</span></label><br />
+                    <input type="text" id="lastName" name="last_name" placeholder="Ej. Pérez" required
+                        autocomplete="family-name" aria-required="true" />
+                </p>
+
+                <p>
+                    <label for="email">Correo electrónico<span aria-hidden="true"> *</span></label><br />
+                    <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com" required
+                        autocomplete="email" aria-required="true" />
+                </p>
+            </fieldset>
+
+            <details>
+                <summary>Encuesta opcional — Año en la universidad</summary>
+                <p>Si lo desea, indique en qué año académico se encuentra actualmente.</p>
+
+                <p>
+                    <label for="universityYear">Año en la universidad (opcional)</label><br />
+                    <select id="universityYear" name="university_year" aria-label="Año en la universidad (opcional)">
+                        <option value="" selected>— No especificar —</option>
+                        <option value="primer_anio">Primer año</option>
+                        <option value="segundo_anio">Segundo año</option>
+                        <option value="tercer_anio">Tercer año</option>
+                        <option value="cuarto_anio">Cuarto año</option>
+                        <option value="quinto_anio">Quinto año</option>
+                        <option value="otro">Otro / No aplicable</option>
+                    </select>
+                </p>
+            </details>
+
+            <p>
+                <button type="submit">Registrarme</button>
+                <button type="reset">Limpiar</button>
+            </p>
+        </form>
+    </main>
+</body>
+
+</html>
