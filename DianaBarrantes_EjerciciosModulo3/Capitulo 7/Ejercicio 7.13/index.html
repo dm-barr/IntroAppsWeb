@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cálculo de ingresos por comisión - Ejercicio 7.1</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Calculadora de ingresos por comisiones</h1>
+    </header>
+
+    <section class="card" aria-labelledby="articulos-title">
+      <h2 id="articulos-title" style="margin:0 0 8px 0;font-size:1.05rem;">Artículos disponibles</h2>
+
+      <p class="small">Seleccione los artículos vendidos y especifique la cantidad vendida de cada uno.</p>
+
+      <table aria-describedby="tabla-articulos">
+        <thead>
+          <tr>
+            <th>Seleccionar</th>
+            <th>Artículo</th>
+            <th>Valor unitario</th>
+            <th class="right">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody id="items-body"></tbody>
+      </table>
+
+      <div class="controls">
+        <button id="clear-all" type="button">Limpiar selección</button>
+      </div>
+
+      <div style="margin-top:10px;">
+        <button id="calculate">Calcular ingresos</button>
+      </div>
+
+      <div id="resultado" class="breakdown" role="status" aria-live="polite" style="display:none;"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
