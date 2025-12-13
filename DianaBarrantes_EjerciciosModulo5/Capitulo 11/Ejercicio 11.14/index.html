@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Contador de Letras del Alfabeto</h1>
+        
+        <div class="seccion">
+            <h3>Ingresar Texto</h3>
+            <label>Escribe varias líneas de texto:</label>
+            <textarea id="textoInput" rows="6" placeholder="Escribe tu texto aquí..."></textarea>
+            
+            <button onclick="analizarTexto()">Analizar Texto</button>
+        </div>
+
+        <div class="seccion">
+            <h3>Resultados del Análisis</h3>
+            <textarea id="resultadoOutput" rows="15" readonly placeholder="Los resultados aparecerán aquí..."></textarea>
+        </div>
+    </div>
+    
+</body>
+</html>

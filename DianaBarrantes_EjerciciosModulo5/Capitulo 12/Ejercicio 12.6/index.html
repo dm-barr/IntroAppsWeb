@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Personaliza la Página</h1>
+        
+        <div class="seccion">
+            <h3>Color de Fondo</h3>
+            <label>Elige un color:</label>
+            <select id="colorFondo" onchange="aplicarEstilos()">
+                <option value="white">Blanco</option>
+                <option value="lightblue">Azul Claro</option>
+                <option value="lightgreen">Verde Claro</option>
+                <option value="lightyellow">Amarillo Claro</option>
+                <option value="lightcoral">Coral Claro</option>
+                <option value="lightgray">Gris Claro</option>
+                <option value="lavender">Lavanda</option>
+                <option value="peachpuff">Durazno</option>
+            </select>
+        </div>
+
+        <div class="seccion">
+            <h3>Tipo de Fuente</h3>
+            <label>Elige el tipo de fuente:</label>
+            <select id="tipoFuente" onchange="aplicarEstilos()">
+                <option value="serif">Serif (Times New Roman)</option>
+                <option value="sans-serif">Sans Serif (Arial)</option>
+            </select>
+        </div>
+
+        <div class="seccion">
+            <h3>Vista Previa</h3>
+            <p>Este es un texto de ejemplo para ver cómo se aplican los cambios de estilo en la página.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+</body>
+</html>
