@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #f4f4f4; 
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -21,21 +21,9 @@ body {
 
 .card {
     background: white;
-    border-radius: 20px;
+    border-radius: 12px;
     padding: 40px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-    animation: fadeIn 0.5s ease;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
@@ -50,21 +38,6 @@ h1 {
     text-align: center;
     margin-bottom: 30px;
     font-size: 14px;
-}
-
-.step {
-    animation: slideIn 0.4s ease;
-}
-
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateX(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
 }
 
 .hidden {
@@ -82,56 +55,49 @@ label {
 input[type="number"] {
     width: 100%;
     padding: 15px;
-    border: 2px solid #e0e0e0;
-    border-radius: 10px;
+    border: 2px solid #dcdcdc;
+    border-radius: 8px;
     font-size: 16px;
     margin-bottom: 20px;
-    transition: all 0.3s ease;
 }
 
 input[type="number"]:focus {
     outline: none;
-    border-color: #667eea;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    border-color: #4a6cf7;
 }
 
 input[type="number"]:invalid {
-    border-color: #ff6b6b;
+    border-color: #e74c3c;
 }
 
-.btn-primary, .btn-secondary {
+.btn-primary,
+.btn-secondary {
     width: 100%;
     padding: 15px;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
     margin-top: 10px;
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-color: #4a6cf7;
     color: white;
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+    background-color: #3a5ce0;
 }
 
 .btn-secondary {
-    background: #f1f1f1;
-    color: #555;
+    background-color: #e0e0e0;
+    color: #444;
 }
 
 .btn-secondary:hover {
-    background: #e0e0e0;
-}
-
-.btn-primary:active, .btn-secondary:active {
-    transform: translateY(0);
+    background-color: #d0d0d0;
 }
 
 #inputs-container {
@@ -139,20 +105,6 @@ input[type="number"]:invalid {
     overflow-y: auto;
     margin-bottom: 20px;
     padding-right: 10px;
-}
-
-#inputs-container::-webkit-scrollbar {
-    width: 8px;
-}
-
-#inputs-container::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
-}
-
-#inputs-container::-webkit-scrollbar-thumb {
-    background: #667eea;
-    border-radius: 10px;
 }
 
 .input-group {
@@ -169,16 +121,16 @@ input[type="number"]:invalid {
 }
 
 .resultado h2 {
-    color: #4caf50;
+    color: #2e7d32;
     margin-bottom: 20px;
     font-size: 24px;
 }
 
 .resultado-box {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #4a6cf7;
     color: white;
     padding: 30px;
-    border-radius: 15px;
+    border-radius: 12px;
     margin-bottom: 20px;
 }
 
@@ -190,38 +142,31 @@ input[type="number"]:invalid {
 }
 
 .info-extra {
-    color: #666;
+    color: #555;
     font-size: 14px;
     margin-bottom: 20px;
     padding: 15px;
-    background: #f8f9fa;
-    border-radius: 10px;
+    background: #f1f1f1;
+    border-radius: 8px;
 }
 
 .error-message {
-    background: #ff6b6b;
+    background: #e74c3c;
     color: white;
     padding: 12px;
     border-radius: 8px;
     margin-bottom: 15px;
-    animation: shake 0.5s ease;
-}
-
-@keyframes shake {
-    0%, 100% { transform: translateX(0); }
-    25% { transform: translateX(-10px); }
-    75% { transform: translateX(10px); }
 }
 
 @media (max-width: 480px) {
     .card {
         padding: 25px;
     }
-    
+
     h1 {
         font-size: 24px;
     }
-    
+
     .numero-grande {
         font-size: 36px;
     }
