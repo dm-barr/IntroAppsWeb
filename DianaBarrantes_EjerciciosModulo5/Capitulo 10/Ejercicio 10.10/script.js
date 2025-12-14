@@ -1,7 +1,6 @@
 
 var rangos = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 
-// Inicializar mostrando la tabla vacía
 window.addEventListener("load", function() {
     mostrarDistribucion();
  

@@ -3,7 +3,6 @@ function buscarCaracter() {
     var caracter = document.getElementById("caracterInput").value;
     var resultado = document.getElementById("resultado");
     
-    // Validaciones
     if (texto === "") {
         resultado.innerHTML = "Por favor ingrese un texto";
         return;
@@ -19,7 +18,6 @@ function buscarCaracter() {
         return;
     }
     
-    // Contar ocurrencias usando indexOf
     var ocurrencias = 0;
     var posicion = 0;
     
@@ -31,7 +29,6 @@ function buscarCaracter() {
         }
     }
     
-    // Mostrar resultado
     if (ocurrencias === 0) {
         resultado.innerHTML = "El carácter '" + caracter + "' no se encontró en el texto";
     } else if (ocurrencias === 1) {
@@ -41,7 +38,6 @@ function buscarCaracter() {
     }
 }
 
-// Permitir Enter para buscar
 window.addEventListener("load", function() {
     document.getElementById("caracterInput").addEventListener("keypress", function(e) {
         if (e.key === "Enter") {
