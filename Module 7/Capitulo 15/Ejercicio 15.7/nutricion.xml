@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informacionNutricional>
+    
+    <producto>
+        <nombre>Galletas Grandma White</nombre>
+        <tipo>Galletas</tipo>
+    </producto>
+
+    <porcion>
+        <tamano>1 paquete</tamano>
+    </porcion>
+
+    <valoresNutricionales>
+        <calorias>
+            <total>260</total>
+            <deGrasa>100</deGrasa>
+        </calorias>
+
+        <grasa>
+            <total unidad="gramos">11</total>
+            <saturada unidad="gramos">2</saturada>
+        </grasa>
+
+        <colesterol unidad="miligramos">5</colesterol>
+        <sodio unidad="miligramos">210</sodio>
+
+        <carbohidratos>
+            <total unidad="gramos">36</total>
+            <fibra unidad="gramos">2</fibra>
+            <azucares unidad="gramos">15</azucares>
+        </carbohidratos>
+
+        <proteina unidad="gramos">5</proteina>
+    </valoresNutricionales>
+
+</informacionNutricional>
